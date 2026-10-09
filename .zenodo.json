@@ -1,0 +1,32 @@
+{
+  "title": "Temporal Memory for Robust Navigation under Distribution Shift: A Controlled Benchmark",
+  "description": "<p>A controlled benchmark comparing a memoryless MLP policy (PPO) against a recurrent LSTM policy (RecurrentPPO) on a goal-occlusion navigation task. Both policies are evaluated under three conditions of increasing difficulty: in-distribution, the training distribution (mild domain randomization), and an unseen severe distribution shift. The LSTM degrades by only 8 percentage points under severe shift, while the MLP collapses by 30. This repository contains all code, trained models, evaluation scripts, and paper source.</p>",
+  "creators": [
+    {
+      "name": "Khan, Sultan Ali",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0004-7403-6484"
+    }
+  ],
+  "keywords": [
+    "reinforcement learning",
+    "mobile robot navigation",
+    "recurrent policies",
+    "domain randomization",
+    "sim-to-real transfer",
+    "partial observability",
+    "LSTM",
+    "PPO"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sultanalikhan7543/sim2real-navigation",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

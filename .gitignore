@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Models and logs (large, regenerate via training)
+models/
+logs/
+paper_data/
+
+# Generated CSV outputs (keep results/ folder, ignore temp)
+eval_results.csv
+out.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorBoard
+events.out.tfevents.*

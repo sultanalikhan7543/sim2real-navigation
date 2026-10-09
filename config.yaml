@@ -1,0 +1,23 @@
+env:
+  world_size: 8.0
+  max_steps: 250
+  lidar_beams: 16
+  lidar_range: 4.0
+  goal_threshold: 0.5
+  collision_threshold: 0.25
+  num_obstacles: 5
+  history_len: 5
+
+policy:
+  features_dim: 64
+  hidden_dim: 64
+
+training:
+  total_timesteps: 1000000
+  learning_rate: 0.0003
+  n_steps: 2048
+  batch_size: 256
+  gamma: 0.99
+  gae_lambda: 0.95
+  log_dir: ./logs
+  model_dir: ./models

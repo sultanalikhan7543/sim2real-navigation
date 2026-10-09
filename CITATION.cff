@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or paper, please cite it as below."
+title: "Temporal Memory for Robust Navigation under Distribution Shift: A Controlled Benchmark"
+type: software
+authors:
+  - family-names: "Khan"
+    given-names: "Sultan Ali"
+    email: "sultanalikhan0344@gmail.com"
+    orcid: "https://orcid.org/0009-0004-7403-6484"
+version: 1.0.0
+doi: 10.5281/zenodo.23256938
+date-released: 2026-10-09
+url: "https://github.com/sultanalikhan7543/sim2real-navigation"
+license: MIT
+keywords:
+  - reinforcement learning
+  - mobile robot navigation
+  - recurrent policies
+  - domain randomization
+  - sim-to-real transfer
+  - partial observability
+abstract: >
+  A controlled benchmark comparing memoryless MLP and recurrent LSTM policies
+  for robust mobile robot navigation under distribution shift. The LSTM degrades
+  by only 8 percentage points under severe shift, while the MLP collapses by 30.
